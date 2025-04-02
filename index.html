@@ -3,28 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgroupShop</title>
+    <title>AgroupShop - Login</title>
 </head>
 <body>
     <header>
         <h1>Bem-vindo ao AgroupShop!</h1>
     </header>
-    
+
     <main>
         <section>
-            <h2>Produtos</h2>
-            <ul>
-                <li>Produto 1</li>
-                <li>Produto 2</li>
-                <li>Produto 3</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Entre em contato conosco!</h2>
-            <p>Telefone: (48) 99624-2583</p>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+                <br>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" required>
+                <br>
+                <button type="button" onclick="login()">Entrar</button>
+            </form>
         </section>
     </main>
+
+    <script>
+        function login() {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            if (email === "proy3339@gmail.com" && password === "$JxPx63339$") {
+                alert("Login bem-sucedido! Redirecionando para o painel...");
+                window.location.href = "admin.html"; // Criamos essa página no próximo passo
+            } else {
+                alert("E-mail ou senha incorretos.");
+            }
+        }
+    </script>
 
     <footer>
         <p>&copy; 2025 AgroupShop. Todos os direitos reservados.</p>
