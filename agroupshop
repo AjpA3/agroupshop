@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroupShop</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao AgroupShop!</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Produtos</h2>
+            <ul>
+                <li>Produto 1</li>
+                <li>Produto 2</li>
+                <li>Produto 3</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Entre em contato conosco!</h2>
+            <p>Telefone: (48) 99624-2583</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AgroupShop. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
